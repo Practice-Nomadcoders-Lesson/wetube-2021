@@ -2,15 +2,20 @@
   "name": "wetube-node",
   "version": "1.0.0",
   "description": "The best way to watch a videos.",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Practice-Nomadcoders-Lesson/wetube-2021.git"
+  },
+  "scripts": {
+    "start": "node index.js"
   },
   "author": "Insu<hinsu93@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Practice-Nomadcoders-Lesson/wetube-2021/issues"
   },
-  "homepage": "https://github.com/Practice-Nomadcoders-Lesson/wetube-2021#readme"
+  "homepage": "https://github.com/Practice-Nomadcoders-Lesson/wetube-2021#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
