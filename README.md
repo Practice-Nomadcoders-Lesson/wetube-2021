@@ -3,3 +3,7 @@
  
 # #2.1 Installing Express
 # npm install express
+
+# #2.3 The Tower of Babel
+# npm install --save-dev @babel/core
+### https://babeljs.io/setup#installation
