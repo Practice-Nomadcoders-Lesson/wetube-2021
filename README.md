@@ -7,3 +7,8 @@
 # #2.3 The Tower of Babel
 # npm install --save-dev @babel/core
 ### https://babeljs.io/setup#installation
+
+# #2.4 Nodemon
+# npm install @babel/core @babel/node --save-dev
+### https://babeljs.io/setup#installation
+# npm install nodemon --save-dev
