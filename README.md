@@ -16,8 +16,7 @@ npm install -g @babel/node --save-dev
 전역으로 설치하기 싫다면 npx를 붙여서 "dev": "nodemon --exec npx babel-node src/index.js" 로 사용한다.
 
 ## #4.0 What are Routers?
-===
-# Wetube Reloaded
+### 💥Wetube Reloaded💥
 ### Global Router
 / -> Home   
 /join -> Join (회원가입)   
@@ -38,12 +37,12 @@ npm install -g @babel/node --save-dev
 
 
 
-===
+---
 ### npm install express (2.1 Installing Express)
 ### npm install --save-dev @babel/core (2.3 The Tower of Babel)
 ### npm install @babel/core @babel/node --save-dev (2.4 Nodemon)
 ### npm install -g @babel/node --save-dev (2.4 Nodemon)
 ### npm install nodemon --save-dev (2.4 Nodemon)
 ### npm install morgan (3.11 External Middlewares)
-===
+---
 
