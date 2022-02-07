@@ -45,5 +45,6 @@ npm install -g @babel/node --save-dev
 ### npm install nodemon --save-dev (2.4 Nodemon)
 ### npm install morgan (3.11 External Middlewares)
 ### npm install pug (5.1 Configuring Pug)
+### npm install mongoose (6.8 Connecting to Mongo)
 ---
 

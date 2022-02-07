@@ -17,6 +17,7 @@
   "homepage": "https://github.com/Practice-Nomadcoders-Lesson/wetube-2021#readme",
   "dependencies": {
     "express": "^4.17.2",
+    "mongoose": "^6.2.0",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
