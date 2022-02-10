@@ -31,19 +31,18 @@ export const postEdit = (req, res) => {
 export const getUpload = (req, res) => {
   return res.render("upload", { pageTitle: "Upload Video" });
 };
-export const postUpload = (req, res) => {
+export const postUpload = async (req, res) => {
   const { title, description, hashtags } = req.body;
-  const video = new Video({
+  await Video.create({
     //video model의 구성요소
     title,
     description,
-    createdAt: Date.now(),
+    createdAt: "lalalalal",
     hashtags: hashtags.split(",").map((word) => `#${word}`),
     meta: {
       views: 0,
       rating: 0,
     },
   });
-  console.log(video);
   return res.redirect("/");
 };
