@@ -1,7 +1,7 @@
 extends base
 
 block content
-    h4 Chage Title of Video 
+    h4 Update Video
     form(method="POST")
         input(name="title" placeholder="Video Title", value=video.title, required)
         input(name="description", value=video.description, minlength=20, required, placeholder="Description", type="text")
