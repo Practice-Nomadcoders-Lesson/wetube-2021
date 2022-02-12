@@ -4,4 +4,6 @@ block content
     h4 Chage Title of Video 
     form(method="POST")
         input(name="title" placeholder="Video Title", value=video.title, required)
+        input(name="description", value=video.description, minlength=20, required, placeholder="Description", type="text")
+        input(name="hashtags", value=video.hashtags.join(), placeholder="Hashtags, seperated by comma", type="text")
         input(value="Save", type="submit")
