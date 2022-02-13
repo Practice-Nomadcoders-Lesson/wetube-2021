@@ -57,9 +57,7 @@ export const postUpload = async (req, res) => {
       //video model의 구성요소
       title,
       description,
-      hashtags: hashtags
-        .split(",")
-        .map((word) => (word.startsWith("#") ? word : `#${word}`)),
+      hashtags,
     });
     return res.redirect("/");
   } catch (error) {
