@@ -46,5 +46,6 @@ npm install -g @babel/node --save-dev
 ### npm install morgan (3.11 External Middlewares)
 ### npm install pug (5.1 Configuring Pug)
 ### npm install mongoose (6.8 Connecting to Mongo)
+### npm install bcrypt (7.2 Creating Account)
 ---
 
