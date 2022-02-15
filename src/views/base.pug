@@ -5,16 +5,21 @@ html(lang="ko")
         link(rel="stylesheet" href="https://unpkg.com/mvp.css")
     dody
         header
-            h1=pageTitle
+            h1 Who is sexy? #{sexy}
             nav 
                 ul 
                     li 
                         a(href="/") Home
-                    if !req.session.loggedIn
+                    if loggedIn 
+                        li 
+                            a(href="/logout") Log Out
+                        li 
+                            a(href="/my-profile") #{loggedInUser.name}의 Profile
+                    else 
                         li 
                             a(href="/join") Join
                         li
-                            a(herf="/login") Login
+                            a(href="/login") Login
                     li 
                         a(href="/search") Search
                     li 
