@@ -48,5 +48,6 @@ npm install -g @babel/node --save-dev
 ### npm install mongoose (6.8 Connecting to Mongo)
 ### npm install bcrypt (7.2 Creating Account)
 ### npm install express-session (7.7 Sesssion and Cookies)
+### npm install connect-mongo (7.12 MongoStore)
 ---
 
