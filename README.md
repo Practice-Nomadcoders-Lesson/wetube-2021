@@ -50,5 +50,7 @@ npm install -g @babel/node --save-dev
 ### npm install express-session (7.7 Sesssion and Cookies)
 ### npm install connect-mongo (7.12 MongoStore)
 ### npm install dotenv (7.15 Environment Variables)
+### ~~npm install node-fetch@2.6.1 (7.19 Github Login part Four)~~
+### npm install cross-fetch (7.19 Github Login part Four comment)
 ---
 
