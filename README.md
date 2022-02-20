@@ -52,5 +52,6 @@ npm install -g @babel/node --save-dev
 ### npm install dotenv (7.15 Environment Variables)
 ### ~~npm install node-fetch@2.6.1 (7.19 Github Login part Four)~~
 ### npm install cross-fetch (7.19 Github Login part Four comment)
+### npm install multer (8.6 File Uploads part One)
 ---
 
