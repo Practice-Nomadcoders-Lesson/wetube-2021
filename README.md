@@ -55,5 +55,8 @@ npm install -g @babel/node --save-dev
 ### npm install multer (8.6 File Uploads part One)
 ### npm install webpack webpack-cli -D (9.1 Webpack Configuration part One)
 ### npm install -D babel-loader (9.2 Webpack Configuration part Two)
+### npm install sass-loader sass webpack --save-dev (9.4 SCSS Loader)
+### npm install --save-dev css-loader (9.4 SCSS Loader)
+### npm install --save-dev style-loader (9.4 SCSS Loader)
 ---
 
