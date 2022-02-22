@@ -58,5 +58,6 @@ npm install -g @babel/node --save-dev
 ### npm install sass-loader sass webpack --save-dev (9.4 SCSS Loader)
 ### npm install --save-dev css-loader (9.4 SCSS Loader)
 ### npm install --save-dev style-loader (9.4 SCSS Loader)
+### npm install --save-dev mini-css-extract-plugin (9.5 MiniCssExtractPlugin)
 ---
 
