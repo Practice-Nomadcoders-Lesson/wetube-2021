@@ -7,8 +7,8 @@
     "url": "git+https://github.com/Practice-Nomadcoders-Lesson/wetube-2021.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/init.js",
-    "assets": "webpack --config webpack.config.js"
+    "dev:server": "nodemon",
+    "dev:assets": "webpack"
   },
   "author": "Insu<hinsu93@gmail.com>",
   "license": "MIT",
