@@ -2,6 +2,7 @@ extends base
 
 block content
     video(src="/" + video.fileUrl, controls)
+//-
     div
         p=video.description
         small=video.createdAt
@@ -12,3 +13,6 @@ block content
         a(href=`${video.id}/edit`) Edit Video &rarr;
         br
         a(href=`${video.id}/delete`) Delete Video &rarr;
+
+block scripts
+    script(src="/static/js/videoPlayer.js")
