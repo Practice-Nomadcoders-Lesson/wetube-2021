@@ -24,6 +24,7 @@ app.use((req, res, next) => {
 
 app.use(logger);
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 //session middleware
 app.use(
