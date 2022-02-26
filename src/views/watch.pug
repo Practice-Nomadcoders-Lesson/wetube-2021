@@ -26,6 +26,7 @@ block content
             br
         small.video__createAt=new Date(video.createdAt).toLocaleDateString("ko-kr", {weekday:'long', year: 'numeric', month: 'long', day:'numeric'})
         if String(video.owner._id) === String(loggedInUser._id)
+            br
             a(href=`${video.id}/edit`) Edit Video &rarr;
             br
             a(href=`${video.id}/delete`) Delete Video &rarr;
@@ -37,4 +38,5 @@ block content
 
 block scripts
     script(src="/static/js/videoPlayer.js")
-    script(src="/static/js/commentSection.js")
+    if loggedIn
+        script(src="/static/js/commentSection.js")
