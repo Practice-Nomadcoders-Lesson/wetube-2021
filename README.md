@@ -61,5 +61,6 @@ npm install -g @babel/node --save-dev
 ### npm install --save-dev mini-css-extract-plugin (9.5 MiniCssExtractPlugin)
 ### npm install regenerator-runtime (13.0 Recorder Setup)
 ### npm install @ffmpeg/ffmpeg @ffmpeg/core (14.0 Introduction)
+### npm install express-flash (15.0 Installation)
 ---
 
