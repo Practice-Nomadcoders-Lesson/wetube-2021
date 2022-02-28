@@ -63,5 +63,7 @@ npm install -g @babel/node --save-dev
 ### npm install @ffmpeg/ffmpeg @ffmpeg/core (14.0 Introduction)
 ### npm install express-flash (15.0 Installation)
 ### npm install --save-dev @babel/core @babel/cli (17.0 Building the Backend)
+### npm install --save multer-s3 (17.7 AWS S3 part Two)
+### npm install aws-sdk (17.7 AWS S3 part Two)
 ---
 
