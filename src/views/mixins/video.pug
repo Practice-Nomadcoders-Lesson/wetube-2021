@@ -1,6 +1,6 @@
 mixin video(video)
     a(href=`/videos/${video.id}`).video-mixin
-        img(src=video.thumbUrl, alt="Thumb Nail").video-mixin__thumb
+        img(src=video.thumbUrl, alt="Thumb Nail" crossorigin).video-mixin__thumb
         div.video-mixin__data
             span.video-mixin__title=video.title
             div.video-mixin__meta
